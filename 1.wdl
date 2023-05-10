@@ -1,5 +1,5 @@
 workflow test {
-    String s = read_string('/etc/hosts')
+    String s = aaa('/etc/hosts')
     output {
         String out = s
     }
