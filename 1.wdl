@@ -6,7 +6,7 @@ workflow test {
     }
 
     output {
-        File response1 = test.request
+        File response1 = request
     }
 }
 
