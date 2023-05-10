@@ -1,6 +1,6 @@
 workflow test {
-    String s = read_int(11)
+    String s = "/etc/hosts"
     output {
-        String out = s
+        String out = read_string(s)
     }
 }
