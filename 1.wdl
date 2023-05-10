@@ -1,5 +1,5 @@
 workflow test {
-    String s = readFile("/etc/hosts")
+    String s = read_string("/etc/hosts")
 
     call hello as step {
     
